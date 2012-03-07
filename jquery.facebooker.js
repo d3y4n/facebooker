@@ -19,7 +19,7 @@
         .error(function() {
             callback(false);
         });
-                
+
     }
     
 })(jQuery);
