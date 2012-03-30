@@ -12,7 +12,7 @@
         if (typeof callback !== 'function')
             return;
 
-        $('<img />').attr('src', unescape('https://www.facebook.com/badge.php?id=4'))
+        $('<img />').attr('src', 'https://www.facebook.com/badge.php?id=4')
         .load(function() {
             callback(true);
         })
